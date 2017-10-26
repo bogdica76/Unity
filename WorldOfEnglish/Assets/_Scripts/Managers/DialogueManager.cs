@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 	public static DialogueManager Instance { get; set;}
@@ -9,6 +10,8 @@ public class DialogueManager : MonoBehaviour {
 	public GameObject dialoguePanel;
 
 	public string npcName;
+
+	public string scene;
 
 	public List<string> dialogueLines = new List<string>();
 
@@ -34,13 +37,14 @@ public class DialogueManager : MonoBehaviour {
 		}
 	}
 	
-	public void AddNewDialogue(string[] lines, string npcName){
+	public void AddNewDialogue(string[] lines, string npcName, string sceneToLoad){
 		dialogueIndex = 0;
 		dialogueLines = new List<string>(lines.Length);
 		foreach (string line in lines) {
 			dialogueLines.Add (line);
 		}
 		this.npcName = npcName;
+		this.scene = sceneToLoad;
 		CreateDialogue ();
 	}
 
@@ -56,6 +60,9 @@ public class DialogueManager : MonoBehaviour {
 			dialogueText.text = dialogueLines [dialogueIndex];
 		} else {
 			dialoguePanel.SetActive (false);
+			if(scene != ""){
+				SceneManager.LoadScene (scene);
+			}
 		}
 	}
 }
