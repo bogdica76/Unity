@@ -7,6 +7,26 @@ using UnityEngine.EventSystems;
 public class WorldInteraction : MonoBehaviour {
 	NavMeshAgent playerAgent;
 
+	void Awake(){
+/*		if (PlayerPrefs.HasKey ("posX") && PlayerPrefs.HasKey ("posY") && PlayerPrefs.HasKey ("posZ")) {
+			gameObject.transform.position = new Vector3 (
+				PlayerPrefs.GetFloat ("posX"),
+				PlayerPrefs.GetFloat ("posY"),
+				PlayerPrefs.GetFloat ("posZ")
+			);
+		}	
+
+		if (PlayerPrefs.HasKey ("rotX") && PlayerPrefs.HasKey ("rotY") && PlayerPrefs.HasKey ("rotZ")) {
+			gameObject.transform.rotation = gameObject.transform.rotation * Quaternion.Euler (
+				new Vector3(
+					PlayerPrefs.GetFloat ("rotX"),
+					PlayerPrefs.GetFloat ("rotY"),
+					PlayerPrefs.GetFloat ("rotZ")
+				)
+			);
+		}*/
+	}
+
 	void Start(){
 		playerAgent = GetComponent<NavMeshAgent> ();
 	}
@@ -57,5 +77,14 @@ public class WorldInteraction : MonoBehaviour {
 				playerAgent.destination = interactionInfo.point;
 			}
 		}
+	}
+
+	void OnDestroy(){
+		PlayerPrefs.SetFloat ("posX", gameObject.transform.position.x);
+		PlayerPrefs.SetFloat ("posY", gameObject.transform.position.y);
+		PlayerPrefs.SetFloat ("posZ", gameObject.transform.position.z);
+		PlayerPrefs.SetFloat ("rotX", gameObject.transform.rotation.x);
+		PlayerPrefs.SetFloat ("rotY", gameObject.transform.rotation.y);
+		PlayerPrefs.SetFloat ("rotZ", gameObject.transform.rotation.z);
 	}
 }
