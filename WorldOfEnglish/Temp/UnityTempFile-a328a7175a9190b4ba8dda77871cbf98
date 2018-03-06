@@ -1,0 +1,207 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-optimize
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-r:C:/Users/Bogdica/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_1
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_WEBGL
+-define:UNITY_WEBGL
+-define:UNITY_WEBGL_API
+-define:UNITY_DISABLE_WEB_VERIFICATION
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_IL2CPP
+-define:NET_2_0_SUBSET
+Assets/_Scripts/Environment/Interactable.cs
+Assets/_Scripts/Environment/NPC.cs
+Assets/_Scripts/Lobby/LobbyManager.cs
+Assets/_Scripts/Managers/DialogueManager.cs
+Assets/_Scripts/Managers/FruitInfoDisplayer.cs
+Assets/_Scripts/Managers/FruitSelector.cs
+Assets/_Scripts/Managers/FruitSpawner.cs
+Assets/_Scripts/Managers/LoginMenu.cs
+Assets/_Scripts/Managers/Select.cs
+Assets/_Scripts/NPC/WalkAround.cs
+Assets/_Scripts/Player/BaseStat.cs
+Assets/_Scripts/Player/BoyAnimatorScript.cs
+Assets/_Scripts/Player/CharacterStats.cs
+Assets/_Scripts/Player/FollowPlayer.cs
+Assets/_Scripts/Player/SimpleMovement.cs
+Assets/_Scripts/Player/StatBonus.cs
+Assets/_Scripts/Player/WorldInteraction.cs
+Assets/_Scripts/SpecialEffects/Rotator.cs
+Assets/_Scripturi/Aiming.cs
+Assets/_Scripturi/BigGameManager.cs
+Assets/_Scripturi/impactTinta.cs
+Assets/_Scripturi/logIn.cs
+Assets/_Scripturi/MiscarePlayer.cs
+Assets/_Scripturi/rotireBile.cs
+Assets/_Scripturi/Shooting.cs
+Assets/_Scripturi/ShootingRangeManager.cs
+Assets/cha_data/Script/ScreenShot.cs
+Assets/MouseLook.cs
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/GlowEffect.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Vortex.cs"
+Assets/SD_Character/Scripts/SampleAnimation.cs
+Assets/SD_Character/Scripts/SpringBone.cs
+Assets/SD_Character/Scripts/SpringCollider.cs
+Assets/SD_Character/Scripts/SpringManager.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

@@ -16,11 +16,13 @@ public class DialogueManager : MonoBehaviour {
 	public List<string> dialogueLines = new List<string>();
 
 	Button okButton;
+	Button cancelButton;
 	Text dialogueText, nameText;
 	int dialogueIndex;
 	// Use this for initialization
 	void Awake () {
 		okButton = dialoguePanel.transform.Find ("Ok").GetComponent<Button> ();
+		cancelButton = dialoguePanel.transform.Find ("Cancel").GetComponent<Button> ();
 		dialogueText = dialoguePanel.transform.Find ("Text").GetComponent<Text> ();
 		nameText = dialoguePanel.transform.Find ("Name").GetChild (0).GetComponent<Text> ();
 
@@ -28,6 +30,10 @@ public class DialogueManager : MonoBehaviour {
 
 		okButton.onClick.AddListener (delegate {
 			ContinueDialogue ();
+		});
+
+		cancelButton.onClick.AddListener (delegate {
+			CancelDialogue ();
 		});
 
 		if (Instance != null && Instance != this) {
@@ -64,5 +70,9 @@ public class DialogueManager : MonoBehaviour {
 				SceneManager.LoadScene (scene);
 			}
 		}
+	}
+
+	public void CancelDialogue(){
+		dialoguePanel.SetActive (false);
 	}
 }
