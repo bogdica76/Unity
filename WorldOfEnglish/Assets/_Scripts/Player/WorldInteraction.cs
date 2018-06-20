@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class WorldInteraction : MonoBehaviour {
 	NavMeshAgent playerAgent;
+	public GameObject destionationPoint;
 
 	void Awake(){
 /*		if (PlayerPrefs.HasKey ("posX") && PlayerPrefs.HasKey ("posY") && PlayerPrefs.HasKey ("posZ")) {
@@ -69,12 +70,32 @@ public class WorldInteraction : MonoBehaviour {
 		RaycastHit interactionInfo;
 		if ( Physics.Raycast (interactionRay, out interactionInfo, Mathf.Infinity) ) {
 			GameObject interactedObject = interactionInfo.collider.gameObject;
+
+			//eliberam orice alte puncte de miscare/interactiune
+			GameObject[] oldDestinationPoints =  GameObject.FindGameObjectsWithTag("destinationPoint");
+
+			foreach(GameObject destination in oldDestinationPoints)
+			{
+				Destroy (destination);
+			}
+
 			if (interactedObject.tag == "interactable") {
 				Debug.Log ("Interacted");
 				interactedObject.GetComponent<Interactable> ().MoveToInteraction (playerAgent);
+				Vector3 interactedPos = interactedObject.transform.position;
+
+				var destinationPoint = (GameObject)Instantiate (
+					destionationPoint,
+					new Vector3(interactedPos.x, 0.0f, interactedPos.z),
+					destionationPoint.transform.rotation);
 			} else {
 				playerAgent.stoppingDistance = 0f;
 				playerAgent.destination = interactionInfo.point;
+
+				var destinationPoint = (GameObject)Instantiate (
+					destionationPoint,
+					interactionInfo.point,
+					destionationPoint.transform.rotation);
 			}
 		}
 	}
