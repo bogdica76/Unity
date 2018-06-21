@@ -1,0 +1,24 @@
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\bin\Debug\Server.exe
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\bin\Debug\Server.pdb
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.exe
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.pdb
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\obj\Debug\Server.Form1.resources
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\bin\Debug\Database.mdf
+C:\Users\Tenk Gergely.DESKTOP-77I128M\source\repos\Server\Server\bin\Debug\Database_log.ldf
+D:\wGit\Unity\Client_Server_Example\Server\Server\bin\Debug\Database.mdf
+D:\wGit\Unity\Client_Server_Example\Server\Server\bin\Debug\Database_log.ldf
+D:\wGit\Unity\Client_Server_Example\Server\Server\bin\Debug\Server.exe.config
+D:\wGit\Unity\Client_Server_Example\Server\Server\bin\Debug\Server.exe
+D:\wGit\Unity\Client_Server_Example\Server\Server\bin\Debug\Server.pdb
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.Form1.resources
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.Properties.Resources.resources
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.exe
+D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.pdb
