@@ -22,3 +22,14 @@ D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.csproj.Genera
 D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.exe
 D:\wGit\Unity\Client_Server_Example\Server\Server\obj\Debug\Server.pdb
+D:\wGit\Unity\Server\Server\bin\Debug\Database.mdf
+D:\wGit\Unity\Server\Server\bin\Debug\Database_log.ldf
+D:\wGit\Unity\Server\Server\bin\Debug\Server.exe.config
+D:\wGit\Unity\Server\Server\bin\Debug\Server.exe
+D:\wGit\Unity\Server\Server\bin\Debug\Server.pdb
+D:\wGit\Unity\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\Server\Server\obj\Debug\Server.Form1.resources
+D:\wGit\Unity\Server\Server\obj\Debug\Server.Properties.Resources.resources
+D:\wGit\Unity\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+D:\wGit\Unity\Server\Server\obj\Debug\Server.exe
+D:\wGit\Unity\Server\Server\obj\Debug\Server.pdb

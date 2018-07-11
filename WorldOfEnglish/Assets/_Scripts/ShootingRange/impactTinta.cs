@@ -19,13 +19,8 @@ public class impactTinta : MonoBehaviour {
     {
 		if (ObjColiziune.gameObject.CompareTag("bullet"))
         {
-            Debug.Log("hello");
-            //other.gameObject.SetActive(false);
-			//transform.Find("shootingRange").GetComponent<ShootingRangeManager>().checkRaspuns(textPancarta.text);
-			ObjColiziune.gameObject.SetActive(false);
+            ObjColiziune.gameObject.SetActive(false);
 			gameObject.transform.parent.gameObject.transform.parent.GetComponent<ShootingRangeManager> ().checkRaspuns (textPancarta.text);
-            //gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * 3);
-			//gameObject.transform.parent.gameObject.transform.GetComponent <Shooting> ().bulletPrefab.gameObject.SetActive (false);
         }
     }
 }

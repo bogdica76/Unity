@@ -7,10 +7,7 @@ public class NPC : Interactable {
 	public string name;
 	public string SceneToLoad;
 
-	public override void Interact(){
-		
+	public override void Interact(){		
 		DialogueManager.Instance.AddNewDialogue (dialogue, name, SceneToLoad);
-		Debug.Log ("Dialog ended");
-		Debug.Log ("interact from NPC");
 	}
 }

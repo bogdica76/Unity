@@ -15,7 +15,7 @@ public class Client : MonoBehaviour
     private int portToConnect = 6321;
     private string password;
     private bool socketReady;
-    private TcpClient socket;
+	private UdpClient socket;
     private NetworkStream stream;
     private StreamWriter writer;
     private StreamReader reader;
@@ -38,8 +38,8 @@ public class Client : MonoBehaviour
 
         try
         {
-            socket = new TcpClient(host, port);
-            stream = socket.GetStream();
+			socket = new UdpClient(port);
+			//stream = socket.Receive();
             writer = new StreamWriter(stream);
             reader = new StreamReader(stream);
 

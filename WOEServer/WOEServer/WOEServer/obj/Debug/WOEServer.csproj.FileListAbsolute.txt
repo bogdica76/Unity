@@ -1,0 +1,6 @@
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\bin\Debug\WOEServer.exe.config
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\bin\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\bin\Debug\WOEServer.pdb
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\obj\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOEServer\WOEServer\obj\Debug\WOEServer.pdb
