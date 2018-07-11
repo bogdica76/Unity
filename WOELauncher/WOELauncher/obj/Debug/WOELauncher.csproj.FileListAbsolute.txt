@@ -1,0 +1,9 @@
+D:\TEMP_GIT\WOELauncher\WOELauncher\bin\Debug\WOELauncher.exe.config
+D:\TEMP_GIT\WOELauncher\WOELauncher\bin\Debug\WOELauncher.exe
+D:\TEMP_GIT\WOELauncher\WOELauncher\bin\Debug\WOELauncher.pdb
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.csprojResolveAssemblyReference.cache
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.WOELauncher.resources
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.Properties.Resources.resources
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.csproj.GenerateResource.Cache
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.exe
+D:\TEMP_GIT\WOELauncher\WOELauncher\obj\Debug\WOELauncher.pdb
