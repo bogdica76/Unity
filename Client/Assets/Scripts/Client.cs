@@ -15,7 +15,7 @@ public class Client : MonoBehaviour
     private int portToConnect = 6321;
     private string password;
     private bool socketReady;
-	private UdpClient socket;
+    private TcpClient socket;
     private NetworkStream stream;
     private StreamWriter writer;
     private StreamReader reader;
@@ -38,8 +38,8 @@ public class Client : MonoBehaviour
 
         try
         {
-			socket = new UdpClient(port);
-			//stream = socket.Receive();
+            socket = new TcpClient(host, port);
+            stream = socket.GetStream();
             writer = new StreamWriter(stream);
             reader = new StreamReader(stream);
 
@@ -91,7 +91,7 @@ public class Client : MonoBehaviour
                 SceneManager.LoadScene("ClientGameView");
                 break;
             case "UnitSpawned":
-                GameObject prefab = Resources.Load("Prefabs/Tester1") as GameObject;
+                GameObject prefab = Resources.Load("Prefabs/Unit1") as GameObject;
                 GameObject go = Instantiate(prefab);
                 float parsedX = float.Parse(aData[3], culture);
                 float parsedY = float.Parse(aData[4], culture);
@@ -127,7 +127,6 @@ public class Client : MonoBehaviour
                             parsedY = float.Parse(aData[4], culture);
                             parsedZ = float.Parse(aData[5], culture);
                             unit.MoveTo(new Vector3(parsedX,parsedY,parsedZ));
-							unit.GetComponent<Animator> ().SetBool ("IsRun", true);
                         }
                     }
                 }
@@ -155,7 +154,7 @@ public class Client : MonoBehaviour
                     }
                     if (!didFind) //add non-existing (at client) units
                     {
-                        prefab = Resources.Load("Prefabs/Tester1") as GameObject;
+                        prefab = Resources.Load("Prefabs/Unit1") as GameObject;
                         go = Instantiate(prefab);
                         un = go.AddComponent<Unit>();
                         unitsOnMap.Add(un);
