@@ -33,3 +33,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+WOE/Temp/__Backupscenes/0.backup
+WOE/Temp/UnityLockfile
+WOE/Temp/ExportedBlenderFBXFile.fbx
