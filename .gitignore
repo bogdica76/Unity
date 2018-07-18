@@ -36,3 +36,5 @@ sysinfo.txt
 WOE/Temp/__Backupscenes/0.backup
 WOE/Temp/UnityLockfile
 WOE/Temp/ExportedBlenderFBXFile.fbx
+WOE/Build/*
+WOE/Temp/*
