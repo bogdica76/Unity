@@ -16,7 +16,10 @@ public class Colliding : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player") {
-			GameObject.Find ("GameManager").GetComponent<GameManager> ().DecreaseHP ();
+			GameObject.Find ("GameManager").GetComponent<GameManagerScript> ().DecreaseHP ();
+		}else if (other.tag == "meteorite") {
+			Destroy (other.gameObject);
+			Destroy (gameObject);
 		}
 	}
 }

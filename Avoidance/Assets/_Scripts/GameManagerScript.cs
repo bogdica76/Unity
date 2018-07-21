@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerScript : MonoBehaviour
 {
 	public GameObject aMeteorite;
 	public GameObject GameOverText;
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		
+		InitGameScene ();
 	}
 	
 	// Update is called once per frame
@@ -91,11 +92,19 @@ public class GameManager : MonoBehaviour
 		playerHealth = playerHealth - 1;
 
 		if (playerHealth == 0) {
-			DisplayGameOver ();
+			EndGame ();
 		}
 	}
 
-	private void DisplayGameOver(){
+	private void EndGame(){
 		GameOverText.SetActive (true);
+	}
+
+	public void InitGameScene (){
+		
+	}
+
+	public void StartGame(){
+		SceneManager.LoadScene ("TestLevel");
 	}
 }
