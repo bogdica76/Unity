@@ -16,6 +16,7 @@ public class GameManagerScript : MonoBehaviour
 	void Start ()
 	{
 		InitGameScene ();
+		gameObject.GetComponent<BlackHoleManager> ().SpawnBlackHole ();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +24,7 @@ public class GameManagerScript : MonoBehaviour
 	{
 		if (Time.time > SpawnRate + lastSpawned) {
 			lastSpawned = Time.time;
-			SpawnMeteorites ();
+			//SpawnMeteorites ();
 		}
 	}
 
