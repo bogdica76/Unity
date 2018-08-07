@@ -1,0 +1,18 @@
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.exe.config
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.exe
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.pdb
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\bin\Debug\ByteBuffer.dll
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\bin\Debug\ByteBuffer.pdb
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.csprojResolveAssemblyReference.cache
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.csproj.CoreCompileInputs.cache
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.csproj.CopyComplete
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.exe
+c:\users\kevin\source\repos\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.pdb
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.exe.config
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.exe
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.pdb
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\obj\Debug\KaymakGames Server.csprojResolveAssemblyReference.cache
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.exe
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\bin\Debug\KaymakGames Server.pdb
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\bin\Debug\ByteBuffer.dll
+C:\Users\Bogdica\Downloads\KaymakGames Server\KaymakGames Server\bin\Debug\ByteBuffer.pdb

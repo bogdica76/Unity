@@ -1,0 +1,16 @@
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\bin\Debug\ByteBuffer.dll
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\bin\Debug\ByteBuffer.pdb
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\bin\Debug\WOEServer.exe.config
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\bin\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\bin\Debug\WOEServer.pdb
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\obj\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOEServer\KaymakGames Server\obj\Debug\WOEServer.pdb
+D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\WOEServer.exe.config
+D:\wGit\Unity\WOEServer\WOE Server\obj\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOE Server\obj\Debug\WOEServer.pdb
+D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\WOEServer.exe
+D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\WOEServer.pdb
+D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\ByteBuffer.dll
+D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\ByteBuffer.pdb
+D:\wGit\Unity\WOEServer\WOE Server\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache

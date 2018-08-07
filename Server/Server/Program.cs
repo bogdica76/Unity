@@ -238,7 +238,7 @@ namespace Server
                     
                     unit.clientName = c.clientName;
                     //give a new ID to the new units
-                    int newid=0;
+                    int newid = 0;
                     foreach (Unit u in units)
                     {
                         if (u.unitID>=newid) { newid = u.unitID + 1; }
