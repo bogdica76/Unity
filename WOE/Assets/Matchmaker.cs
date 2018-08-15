@@ -31,8 +31,13 @@ public class Matchmaker : Photon.PunBehaviour
 
     public override void OnJoinedRoom()
     {
-        GameObject monster = PhotonNetwork.Instantiate("PhotonTestPlayer", Vector3.zero, Quaternion.identity, 0);
+        GameObject monster = PhotonNetwork.Instantiate("PhotonTestPlayer", new Vector3(250.0f, 10.0f, 250.0f), Quaternion.identity, 0);
         monster.GetComponent<myThirdPersonController>().isControllable = true;
+        //Debug.Log("trying to setup camera");
+        //monster.GetComponent<CameraWork>().followOnStart = true;
+        //Debug.Log("after setup");
         myPhotonView = monster.GetComponent<PhotonView>();
+
+        monster.transform.GetChild(0).gameObject.active = true;
     }
 }

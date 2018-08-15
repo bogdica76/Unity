@@ -4,7 +4,9 @@ public class NetworkCharacter : Photon.MonoBehaviour
 {
     private Vector3 correctPlayerPos = Vector3.zero; // We lerp towards this
     private Quaternion correctPlayerRot = Quaternion.identity; // We lerp towards this
-    // Update is called once per frame
+                                                               // Update is called once per frame
+
+ 
     void Update()
     {
         if (!photonView.isMine)
