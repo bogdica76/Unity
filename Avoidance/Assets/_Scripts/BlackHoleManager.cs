@@ -5,6 +5,7 @@ using UnityEngine;
 public class BlackHoleManager : MonoBehaviour {
 	public GameObject BlackHole;
 	public GameObject BlackHoleMiniMap;
+    public bool blackHoleIsSpawned = false;
 
 	// Use this for initialization
 	void Start () {
@@ -30,5 +31,6 @@ public class BlackHoleManager : MonoBehaviour {
 			BlackHoleMiniMap,
 			new Vector3(x + 40.0f, 0.3f, y),
 			BlackHoleMiniMap.transform.rotation);
+        blackHoleIsSpawned = true;
 	}
 }

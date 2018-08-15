@@ -14,7 +14,7 @@ public class ClientTCP : MonoBehaviour
     public byte[] receivedBytes;
     public bool handleData = false;
 
-    private string IP_ADDRESS = "127.0.0.1";
+    private string IP_ADDRESS = "bogdica.go.ro";
     private int PORT = 5555;
 
     public int myConnectionID;
@@ -110,6 +110,7 @@ public class ClientTCP : MonoBehaviour
     }
 
     public static void SendMovement(Vector3 pos, Quaternion rot) {
+        Debug.Log("sending movement like an idiot");
         ByteBuffer buffer = new ByteBuffer();
         buffer.WriteLong((long)ClientPackets.CMovement);
 

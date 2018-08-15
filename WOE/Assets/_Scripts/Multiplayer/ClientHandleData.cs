@@ -128,15 +128,14 @@ public class ClientHandleData : MonoBehaviour
         GameObject temp = playerpref_;
         temp.name = "Player: " + connectionID;
         temp.GetComponent<Player>().connectionID = connectionID;
-        if (connectionID != Globals.myConnectionID)
+        var vPlayer = Instantiate(temp);
+        Debug.LogError("Just spawned Player: " + connectionID);
+        if (connectionID == Globals.myConnectionID)
         {
-            Debug.Log("disabling camera for: " + connectionID);
+            Debug.Log("setting camera for: " + connectionID);
             //temp.transform.GetChild(0).gameObject.SetActive(false);
 
-            Instantiate(temp).transform.GetChild(0).gameObject.SetActive(false);
-        }
-        else {
-            Instantiate(temp);
+            GameObject.Find("CameraArm").GetComponent<FollowPlayer>().playerToFollow = vPlayer;
         }
     }
 
@@ -155,6 +154,8 @@ public class ClientHandleData : MonoBehaviour
         float rotx = buffer.ReadFloat();
         float roty = buffer.ReadFloat();
         float rotz = buffer.ReadFloat();
+
+        Debug.Log("Moving player Player: " + connectionID + "(Clone)");
 
         GameObject player = GameObject.Find("Player: " + connectionID + "(Clone)");
         player.transform.position = new Vector3(x, y, z);

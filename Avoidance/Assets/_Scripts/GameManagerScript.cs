@@ -10,13 +10,14 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject GameOverText;
 	public float SpawnRate = 0.5f;
 	private float lastSpawned = 0.0f;
+    private float gameStart = 0.0f;
 	private int playerHealth = 1;
 
 	// Use this for initialization
 	void Start ()
 	{
 		InitGameScene ();
-		gameObject.GetComponent<BlackHoleManager> ().SpawnBlackHole ();
+        gameStart = Time.time;		
 	}
 	
 	// Update is called once per frame
@@ -24,8 +25,14 @@ public class GameManagerScript : MonoBehaviour
 	{
 		if (Time.time > SpawnRate + lastSpawned) {
 			lastSpawned = Time.time;
-			//SpawnMeteorites ();
+			SpawnMeteorites ();
 		}
+        if (Time.time > gameStart + 5) {
+            if (gameObject.GetComponent<BlackHoleManager>().blackHoleIsSpawned)
+                return;
+
+            gameObject.GetComponent<BlackHoleManager>().SpawnBlackHole();
+        }
 	}
 
 	public void SpawnMeteorites ()

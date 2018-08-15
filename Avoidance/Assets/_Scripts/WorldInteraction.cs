@@ -84,18 +84,18 @@ public class WorldInteraction : MonoBehaviour {
 				interactedObject.GetComponent<Interactable> ().MoveToInteraction (playerAgent);
 				Vector3 interactedPos = interactedObject.transform.position;
 
-				var destinationPoint = (GameObject)Instantiate (
+				/*var destinationPoint = (GameObject)Instantiate (
 					destionationPoint,
 					new Vector3(interactedPos.x, 0.0f, interactedPos.z),
-					destionationPoint.transform.rotation);
+					destionationPoint.transform.rotation);*/
 			} else {
 				playerAgent.stoppingDistance = 0f;
 				playerAgent.destination = interactionInfo.point;
 
-				var destinationPoint = (GameObject)Instantiate (
+				/*var destinationPoint = (GameObject)Instantiate (
 					destionationPoint,
 					interactionInfo.point,
-					destionationPoint.transform.rotation);
+					destionationPoint.transform.rotation);*/
 			}
 		}
 	}

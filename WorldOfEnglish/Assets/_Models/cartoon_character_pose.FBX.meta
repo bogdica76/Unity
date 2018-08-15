@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: aa1d3f330d40e7948b877a8f1324a06c
-timeCreated: 1510640615
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: BanTay_L
     100002: BanTay_R
@@ -232,6 +230,7 @@ ModelImporter:
     7400000: Take 001
     9500000: //RootNode
     13700000: Object009
+    6000828045688606266: Camera001
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -256,6 +255,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -280,11 +280,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
