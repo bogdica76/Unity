@@ -8,10 +8,12 @@ public class MenuManagerScript : MonoBehaviour {
 
 	public GameObject MainMenuPanel;
 	public GameObject PowerUpsPanel;
+    public GameObject ShopMenuPanel;
 
 	public Text SpeedLevelText;
 	public Text AccelerationLevelText;
 	public Text ShieldLevelText;
+    public Text DiamondsText;
 
 	void Start () {
 		MainMenuPanel.SetActive (true);
@@ -20,8 +22,8 @@ public class MenuManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        DiamondsText.text = PlayerPrefs.GetInt("diamonds").ToString();
+    }
 
 	public void PlayGame(){
 		SceneManager.LoadScene ("TestLevel");
@@ -32,8 +34,21 @@ public class MenuManagerScript : MonoBehaviour {
 		PowerUpsPanel.SetActive (true);
 	}
 
+    public void GoToShop() {
+        MainMenuPanel.SetActive(false);
+        ShopMenuPanel.SetActive(true);
+    }
+
 	public void GoToMenu(){
 		MainMenuPanel.SetActive (true);
-		PowerUpsPanel.SetActive (false);		
+		ShopMenuPanel.SetActive (false);		
 	}
+
+    public void GetDiamonds() {
+        GameObject.Find("AdManager").GetComponent<AdManagerUnity>().ShowRewardedAd();
+    }
+
+    public void Quit() {
+        Application.Quit();
+    }
 }

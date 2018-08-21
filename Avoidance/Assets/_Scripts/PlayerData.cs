@@ -6,6 +6,7 @@ public class PlayerData : MonoBehaviour {
 
     private int PlayerDiamonds;
     private int PlayerLevel;
+    private int adsCountDown;
 
     void Awake() {
         DontDestroyOnLoad(this);
@@ -14,8 +15,9 @@ public class PlayerData : MonoBehaviour {
 	void Start () {
 		PlayerDiamonds = PlayerPrefs.GetInt ("diamonds");
         PlayerLevel = PlayerPrefs.GetInt("level");
-		Debug.Log (PlayerDiamonds);
-        Debug.Log(PlayerLevel);
+        adsCountDown = PlayerPrefs.GetInt("ads");
+		//Debug.Log (PlayerDiamonds);
+        //Debug.Log(PlayerLevel);
 	}
 	
 	// Update is called once per frame
@@ -24,9 +26,15 @@ public class PlayerData : MonoBehaviour {
 	}
 
 	void OnDestroy(){
-		PlayerPrefs.SetInt ("diamonds", PlayerDiamonds);
-        PlayerPrefs.SetInt("level", PlayerLevel);
+        SaveData();
 	}
+
+    private void SaveData()
+    {
+        PlayerPrefs.SetInt("diamonds", PlayerDiamonds);
+        PlayerPrefs.SetInt("level", PlayerLevel);
+        PlayerPrefs.SetInt("ads", adsCountDown);        
+    }
 
     public void IncreaseLevel() {
         PlayerLevel = PlayerLevel + 1;
@@ -35,5 +43,12 @@ public class PlayerData : MonoBehaviour {
     public void RewardByTime(float aSeconds) {
         int seconds = Mathf.FloorToInt(aSeconds);
         PlayerDiamonds = PlayerDiamonds + seconds;
+        adsCountDown = adsCountDown + 1;
+        if (adsCountDown == 3) {
+            //dau reclama
+            adsCountDown = 0;
+            GameObject.Find("AdManager").GetComponent<AdManagerUnity>().ShowAd();
+        }
+        SaveData();
     }
 }

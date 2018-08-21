@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 114346066025773406}
   - component: {fileID: 114003742345873640}
   - component: {fileID: 114693653744696828}
+  - component: {fileID: 114061794307136116}
   m_Layer: 0
   m_Name: PhotonTestPlayer
   m_TagString: Player
@@ -201,13 +202,27 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
---- !u!114 &114346066025773406
+--- !u!114 &114061794307136116
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765877777399982}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc40e933adf3224b90ff99456afbaf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  rotationSpeed: 150
+  isControllable: 0
+--- !u!114 &114346066025773406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1765877777399982}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d73edb06d4aa53540ac19898993544e3, type: 3}
   m_Name: 
