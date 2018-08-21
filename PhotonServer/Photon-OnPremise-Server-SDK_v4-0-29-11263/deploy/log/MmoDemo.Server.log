@@ -1,0 +1,2 @@
+2018-08-10 13:39:29,803 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MMoDemo; AppPath=D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2018-08-10 13:39:58,665 [12] INFO  Photon.MmoDemo.Server.World - created world Mmo Grid Demo

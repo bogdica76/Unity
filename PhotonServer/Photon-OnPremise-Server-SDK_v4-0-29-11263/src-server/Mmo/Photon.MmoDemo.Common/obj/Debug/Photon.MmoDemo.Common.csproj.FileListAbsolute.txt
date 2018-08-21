@@ -1,0 +1,5 @@
+D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Mmo\Photon.MmoDemo.Common\bin\Debug\Photon.MmoDemo.Common.dll
+D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Mmo\Photon.MmoDemo.Common\bin\Debug\Photon.MmoDemo.Common.pdb
+D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Mmo\Photon.MmoDemo.Common\obj\Debug\Photon.MmoDemo.Common.csprojResolveAssemblyReference.cache
+D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Mmo\Photon.MmoDemo.Common\obj\Debug\Photon.MmoDemo.Common.dll
+D:\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Mmo\Photon.MmoDemo.Common\obj\Debug\Photon.MmoDemo.Common.pdb
