@@ -41,7 +41,7 @@ public class PlayerData : MonoBehaviour {
     }
 
     public void RewardByTime(float aSeconds) {
-        int seconds = Mathf.FloorToInt(aSeconds);
+        int seconds = Mathf.FloorToInt(aSeconds / 3);
         PlayerDiamonds = PlayerDiamonds + seconds;
         adsCountDown = adsCountDown + 1;
         if (adsCountDown == 3) {
@@ -49,6 +49,20 @@ public class PlayerData : MonoBehaviour {
             adsCountDown = 0;
             GameObject.Find("AdManager").GetComponent<AdManagerUnity>().ShowAd();
         }
+        SaveData();
+    }
+
+    public void RewardVideo() {
+        PlayerDiamonds += 50;
+        SaveData();
+    }
+
+    public bool CanBuyUpgrade() {
+        return PlayerDiamonds >= 250;
+    }
+
+    public void BuyUpgrade() {
+        PlayerDiamonds -= 250;
         SaveData();
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Colliding : MonoBehaviour {
 
+    public GameObject explosion;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,11 +16,21 @@ public class Colliding : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player") {
-			GameObject.Find ("GameManager").GetComponent<GameManagerScript> ().DecreaseHP ();
-		}else if (other.tag == "meteorite") {
+
+        if (other.tag == "Player") {
+			GameObject.Find ("Player").GetComponent<PlayerShipSetup> ().DecreaseHP ();
+            if (explosion != null)
+            {
+                Instantiate(explosion, transform.position, transform.rotation);
+            }
+        }
+        else if (other.tag == "meteorite") {
 			Destroy (other.gameObject);
 			Destroy (gameObject);
-		}
-	}
+            if (explosion != null)
+            {
+                Instantiate(explosion, transform.position, transform.rotation);
+            }
+        }
+    }
 }

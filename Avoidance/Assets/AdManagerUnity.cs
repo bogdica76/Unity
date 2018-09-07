@@ -25,10 +25,10 @@ public class AdManagerUnity : MonoBehaviour {
 
     public void ShowRewardedAd()
     {
-        if (Advertisement.IsReady("rewardedVideo"))
+        if (Advertisement.IsReady("reward"))
         {
             var options = new ShowOptions { resultCallback = HandleShowResult };
-            Advertisement.Show("rewardedVideo", options);
+            Advertisement.Show("reward", options);
         }
     }
 
@@ -38,7 +38,7 @@ public class AdManagerUnity : MonoBehaviour {
         {
             case ShowResult.Finished:
                 Debug.Log("The ad was successfully shown.");
-                GameObject.Find("PlayerManager").GetComponent<PlayerData>().RewardByTime(100);
+                GameObject.Find("PlayerManager").GetComponent<PlayerData>().RewardVideo();
                 //
                 // YOUR CODE TO REWARD THE GAMER
                 // Give coins etc.
@@ -52,5 +52,5 @@ public class AdManagerUnity : MonoBehaviour {
         }
     }
 
-
+    
 }

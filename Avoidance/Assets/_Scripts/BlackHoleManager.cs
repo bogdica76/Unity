@@ -29,7 +29,7 @@ public class BlackHoleManager : MonoBehaviour {
 
 		var blackHoleMiniMapSpawned = (GameObject)Instantiate (
 			BlackHoleMiniMap,
-			new Vector3(x + 40.0f, 0.3f, y),
+			new Vector3(x + 100.0f, 0.3f, y),
 			BlackHoleMiniMap.transform.rotation);
         blackHoleIsSpawned = true;
 	}

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class MenuManagerScript : MonoBehaviour {
 
 	public GameObject MainMenuPanel;
 	public GameObject PowerUpsPanel;
     public GameObject ShopMenuPanel;
+    
 
 	public Text SpeedLevelText;
 	public Text AccelerationLevelText;
@@ -26,7 +28,7 @@ public class MenuManagerScript : MonoBehaviour {
     }
 
 	public void PlayGame(){
-		SceneManager.LoadScene ("TestLevel");
+		SceneManager.LoadScene ("Survival");
 	}
 
 	public void GoToPowerUps(){
@@ -36,12 +38,12 @@ public class MenuManagerScript : MonoBehaviour {
 
     public void GoToShop() {
         MainMenuPanel.SetActive(false);
-        ShopMenuPanel.SetActive(true);
+        ShopMenuPanel.SetActive(true);      
     }
 
 	public void GoToMenu(){
 		MainMenuPanel.SetActive (true);
-		ShopMenuPanel.SetActive (false);		
+		ShopMenuPanel.SetActive (false);	
 	}
 
     public void GetDiamonds() {
@@ -49,6 +51,12 @@ public class MenuManagerScript : MonoBehaviour {
     }
 
     public void Quit() {
+        //GameObject.Find("AdManager").GetComponent<GoogleAds>().ShowInterstitial();
         Application.Quit();
+    }
+
+    public void ShareFB() {
+        string facebookshare = "https://www.facebook.com/sharer/sharer.php?u=" + Uri.EscapeUriString("https://play.google.com/store/apps/details?id=com.Acasa.Avoidance");
+        Application.OpenURL(facebookshare);
     }
 }

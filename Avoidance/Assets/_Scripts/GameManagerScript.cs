@@ -17,6 +17,8 @@ public class GameManagerScript : MonoBehaviour
     private int diamondsEarned = 0;
     private bool isGameOver = false;
 
+    public GameObject[] asteroids;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -46,73 +48,66 @@ public class GameManagerScript : MonoBehaviour
 	public void SpawnMeteorites ()
 	{		
 		int vDirectie = Mathf.RoundToInt (Random.Range (1, 5));
+        GameObject asteroidToSpawn = asteroids[Random.Range(0, asteroids.Length)];
 		switch (vDirectie) {
 		case 1:
-			SpawnLeft ();
+			SpawnLeft (asteroidToSpawn);
 			break;
 		case 2:
-			SpawnTop ();
+			SpawnTop (asteroidToSpawn);
 			break;
 		case 3:
-			SpawnRight ();
+			SpawnRight (asteroidToSpawn);
 			break;
 		case 4:
-			SpawnBottom ();
+			SpawnBottom (asteroidToSpawn);
 			break;
 		default:
 			break;
 		}		
 	}
 
-	public void SpawnLeft ()
+	public void SpawnLeft (GameObject asteroid)
 	{
-		float vHeight = Random.Range (-15, 15);
+		float vHeight = Random.Range (-30, 30);
 		var meteoriteSpawned = (GameObject)Instantiate (
-			aMeteorite,
-			new Vector3(vHeight, 0.3f, -15.0f),
-			aMeteorite.transform.rotation);
-		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = aMeteorite.transform.forward * 3;
+			asteroid,
+			new Vector3(vHeight, 0.3f, -30.0f),
+			asteroid.transform.rotation);
+		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = asteroid.transform.forward * 3;
 	}
 
-	public void SpawnTop ()
+	public void SpawnTop (GameObject asteroid)
 	{
-		float vWidth = Random.Range (-15, 15);
+		float vWidth = Random.Range (-30, 30);
 		var meteoriteSpawned = (GameObject)Instantiate (
-			aMeteorite,
-			new Vector3(-15.0f, 0.3f, vWidth),
-			aMeteorite.transform.rotation);
-		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = aMeteorite.transform.right * 3;		
+			asteroid,
+			new Vector3(-30.0f, 0.3f, vWidth),
+			asteroid.transform.rotation);
+		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = asteroid.transform.right * 3;		
 	}
 
-	public void SpawnRight ()
+	public void SpawnRight (GameObject asteroid)
 	{
-		float vHeight = Random.Range (-15, 15);
+		float vHeight = Random.Range (-30, 30);
 		var meteoriteSpawned = (GameObject)Instantiate (
-			aMeteorite,
-			new Vector3(vHeight, 0.3f, 15.0f),
-			aMeteorite.transform.rotation);
-		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = aMeteorite.transform.forward * -3;
+            asteroid,
+			new Vector3(vHeight, 0.3f, 30.0f),
+            asteroid.transform.rotation);
+		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = asteroid.transform.forward * -3;
 	}
 
-	public void SpawnBottom ()
+	public void SpawnBottom (GameObject asteroid)
 	{
-		float vWidth = Random.Range (-15, 15);
+		float vWidth = Random.Range (-30, 30);
 		var meteoriteSpawned = (GameObject)Instantiate (
-			aMeteorite,
-			new Vector3(15.0f, 0.3f, vWidth),
-			aMeteorite.transform.rotation);
-		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = aMeteorite.transform.right * -3;
+            asteroid,
+			new Vector3(30.0f, 0.3f, vWidth),
+            asteroid.transform.rotation);
+		meteoriteSpawned.GetComponent<Rigidbody> ().velocity = asteroid.transform.right * -3;
 	}
 
-	public void DecreaseHP(){
-		playerHealth = playerHealth - 1;
-
-		if (playerHealth == 0) {
-			EndGame ();
-		}
-	}
-
-	private void EndGame(){
+	public void EndGame(){
         if (!isGameOver)
         {
             isGameOver = true;
@@ -131,7 +126,7 @@ public class GameManagerScript : MonoBehaviour
             float seconds = Time.time - gameStart;
             diamondsEarned = Mathf.FloorToInt(seconds);
             WinningText.SetActive(true);
-            WinningText.GetComponent<Text>().text = "Congratulations! \n You have escaped the asteroid field earning <color=cyan>" + diamondsEarned + "</color> diamons.";
+            WinningText.GetComponent<Text>().text = "Congratulations! \n You have escaped the asteroid field earning <color=cyan>" + diamondsEarned/3 + "</color> diamons.";
             StartCoroutine(GoToMenu());
         }
     }
