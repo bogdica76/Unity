@@ -3,7 +3,9 @@
     public enum ParameterCodes:byte
     {
         SubOperationCode = 0,
-        CharacterName,
+        //login operation params
+        User,
+        Pass,
         ChatMessage,
         PosX,
         PosY,

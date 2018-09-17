@@ -22,7 +22,8 @@ namespace WOEServer
         {
             if ((OperationCodes)operationRequest.OperationCode == OperationCodes.Login) {
                 Login loginRequest = new Login(Protocol, operationRequest);
-                string user = loginRequest.CharacterName;
+                string user = loginRequest.User;
+                string pass = loginRequest.Pass;
                 OperationResponse response = new OperationResponse();
                 response.OperationCode = (byte)OperationCodes.Login;
 
