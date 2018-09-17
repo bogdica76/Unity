@@ -3,7 +3,7 @@ using System.Collections;
 
 public class General : MonoBehaviour
 {
-
+    /*
     // Use this for initialization
     void Start()
     {
@@ -32,4 +32,5 @@ public class General : MonoBehaviour
         angle = -angle % 360;
         return 360 - angle;
     }
+    */
 }

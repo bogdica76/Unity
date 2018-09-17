@@ -1,6 +1,6 @@
 ﻿namespace WOEServer.Common
 {
-    public enum EventCode:byte
+    public enum EventCodes:byte
     {
         ChatMessage,
         Move,

@@ -11,7 +11,7 @@ namespace WOEServer.Operations
         {
         }
 
-        [DataMember(Code = (byte)ParameterCode.CharacterName)]
+        [DataMember(Code = (byte)ParameterCodes.CharacterName)]
         public string CharacterName { get; set; }
     }
 }

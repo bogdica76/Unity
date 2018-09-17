@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4542346751708436}
   - component: {fileID: 33905111594320782}
   - component: {fileID: 23025485355565926}
+  - component: {fileID: 65035480016238876}
   m_Layer: 0
   m_Name: cupboard2
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584440110254080}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.21, y: 0, z: 5.64}
+  m_LocalPosition: {x: 7.21, y: 0.14999999, z: -8.8}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584440110254080}
   m_Mesh: {fileID: 4300000, guid: 3b72642b85e622b40bc6aa4142ff2f92, type: 3}
+--- !u!65 &65035480016238876
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584440110254080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.000002, y: 10, z: 6.0000014}
+  m_Center: {x: -19.500004, y: 4.5, z: -67.500015}

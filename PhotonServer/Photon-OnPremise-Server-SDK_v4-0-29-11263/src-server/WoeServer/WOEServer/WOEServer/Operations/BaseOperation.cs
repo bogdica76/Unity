@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Photon.SocketServer;
+﻿using Photon.SocketServer;
 using Photon.SocketServer.Rpc;
 using WOEServer.Common;
 
@@ -16,7 +11,7 @@ namespace WOEServer.Operations
         {
         }
 
-        public virtual OperationResponse GetResponse(ErrorCode errorCode, string debugMessage = "")
+        public virtual OperationResponse GetResponse(ErrorCodes errorCode, string debugMessage = "")
         {
             var response = new OperationResponse(OperationRequest.OperationCode);
             response.ReturnCode = (short)errorCode;

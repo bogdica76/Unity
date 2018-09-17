@@ -11,3 +11,9 @@ D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\obj\Debug\WOEServer.pdb
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\WOEServer.Common.dll
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\WOEServer.Common.pdb
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\log4net.config
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGames.Logging.Log4Net.dll
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\log4net.dll
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\PhotonHostRuntimeInterfaces.dll
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGames.Logging.Log4Net.pdb
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGames.Logging.Log4Net.xml

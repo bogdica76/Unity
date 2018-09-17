@@ -322,77 +322,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128664423}
   m_CullTransparentMesh: 0
---- !u!1 &144997588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 144997590}
-  - component: {fileID: 144997589}
-  - component: {fileID: 144997592}
-  - component: {fileID: 144997591}
-  m_Layer: 0
-  m_Name: Client
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &144997589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 144997588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd43cc7d8e16857478915650ba0f3cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1175227171531926, guid: be38123137e3231479f17fc6b3e1c966,
-    type: 2}
-  OtherPrefab: {fileID: 1404244117526444, guid: 8e7320e6b585bb544b2edf476bd02cb5,
-    type: 2}
-  clientNameInputField: {fileID: 128664425}
-  serverAddressInputField: {fileID: 191468992}
-  passwordInputField: {fileID: 564417582}
---- !u!4 &144997590
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 144997588}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 282.9067, y: 173.52959, z: 67.876236}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &144997591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 144997588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7023d1fb4d306f249bbdc9e26af2ce0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &144997592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 144997588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9603d0aa27239b846aa64a4f9b7f0018, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &191468990
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,7 +838,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 144997589}
+      - m_Target: {fileID: 0}
         m_MethodName: ConnectToServerButton
         m_Mode: 1
         m_Arguments:
@@ -1183,6 +1112,7 @@ GameObject:
   - component: {fileID: 1572909738}
   - component: {fileID: 1572909737}
   - component: {fileID: 1572909736}
+  - component: {fileID: 1572909740}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1257,6 +1187,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572909740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572909735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30cfd30322be63d41903c446d4177168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Players: []
 --- !u!1 &1868436267
 GameObject:
   m_ObjectHideFlags: 0

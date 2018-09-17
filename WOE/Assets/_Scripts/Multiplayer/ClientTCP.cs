@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClientTCP : MonoBehaviour
 {
+    /*
     public static ClientTCP instance;
 
     public TcpClient client;
@@ -127,4 +128,5 @@ public class ClientTCP : MonoBehaviour
         SendData(buffer.ToArray());
         buffer.Dispose();
     }
+    */
 }

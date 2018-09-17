@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ClientHandleData : MonoBehaviour
 {
+    /*
 
     public static Dictionary<int, GameObject> playerList = new Dictionary<int, GameObject>();
     public GameObject playerPref;
@@ -167,4 +168,5 @@ public class ClientHandleData : MonoBehaviour
 
         buffer.Dispose();
     }
+    */
 }

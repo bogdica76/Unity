@@ -1,6 +1,6 @@
 ﻿namespace WOEServer.Common
 {
-    public enum ParameterCode:byte
+    public enum ParameterCodes:byte
     {
         SubOperationCode = 0,
         CharacterName,

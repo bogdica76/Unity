@@ -1,6 +1,6 @@
 ﻿namespace WOEServer.Common
 {
-    public enum ErrorCode:byte
+    public enum ErrorCodes:byte
     {
         Ok = 0,
 

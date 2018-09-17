@@ -2,3 +2,4 @@ D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer.Common\bin\Debug\WOEServer.Common.pdb
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer.Common\obj\Debug\WOEServer.Common.dll
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer.Common\obj\Debug\WOEServer.Common.pdb
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer.Common\obj\Debug\WOEServer.Common.csprojResolveAssemblyReference.cache

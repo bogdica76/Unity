@@ -1,6 +1,6 @@
 ﻿namespace WOEServer.Common
 {
-    public enum OperationCode:byte
+    public enum OperationCodes:byte
     {
         Login,
         GetRecentChatMessages,

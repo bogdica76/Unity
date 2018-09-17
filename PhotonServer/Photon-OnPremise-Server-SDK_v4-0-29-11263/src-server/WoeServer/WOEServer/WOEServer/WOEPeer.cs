@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WOEServer.Common;
+﻿using WOEServer.Common;
 using Photon.SocketServer;
 using PhotonHostRuntimeInterfaces;
 
@@ -24,7 +19,7 @@ namespace WOEServer
 
         protected override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters)
         {
-            if ((OperationCode)operationRequest.OperationCode == OperationCode.Login) {
+            if ((OperationCodes)operationRequest.OperationCode == OperationCodes.Login) {
                 working = "ok";                
             }
         }

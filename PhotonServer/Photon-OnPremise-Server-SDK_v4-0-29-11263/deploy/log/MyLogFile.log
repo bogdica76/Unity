@@ -1,0 +1,4 @@
+2018-09-12 11:22:19,116 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-12 11:22:19,131 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-12 11:23:02,693 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-12 11:23:02,695 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer

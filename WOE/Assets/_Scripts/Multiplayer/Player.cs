@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
-
+public class _Player : MonoBehaviour {
+    /*
     public int connectionID;
     private float posX, posY, posZ;
 
@@ -45,4 +45,5 @@ public class Player : MonoBehaviour {
             ClientTCP.SendMovement(transform.position, transform.rotation);
         }
     }
+    */
 }
