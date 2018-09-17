@@ -8,8 +8,8 @@ using UnityEngine;
 
 public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 {
-    private const string CONNECTION_STRING = "localhost:5055";
-    private const string APP_NAME = "MyCoolServer";
+    private const string CONNECTION_STRING = "bogdica.go.ro:4530";
+    private const string APP_NAME = "WOEServer";
 
     private static PhotonServer _instance;
     public static PhotonServer Instance
@@ -45,7 +45,7 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
     void Start()
     {
 
-        PhotonPeer = new PhotonPeer(this, ConnectionProtocol.Udp);
+        PhotonPeer = new PhotonPeer(this, ConnectionProtocol.Tcp);
         if (!PhotonPeer.RegisterType(typeof(Vector3Net), (byte)200, Vector3Net.Serialize, Vector3Net.Deserialize))
         {
             throw new Exception("not working...");
@@ -88,6 +88,7 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
         switch (operationResponse.OperationCode)
         {
             case (byte)OperationCodes.Login:
+                Debug.Log("mama");
                 LoginHandler(operationResponse);
                 break;
             /*case (byte)OperationCode.ListPlayers:
@@ -159,7 +160,8 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
     {
         if (operationResponse.ReturnCode != 0)
         {
-            ErrorCodes errorCode = (ErrorCodes)operationResponse.ReturnCode;
+            Debug.Log("A aparut o eroare: " + operationResponse.ReturnCode);
+            /*ErrorCodes errorCode = (ErrorCodes)operationResponse.ReturnCode;
             switch (errorCode)
             {
                 case ErrorCodes.NameIsExist:
@@ -171,7 +173,10 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
                     break;
             }
 
-            return;
+            return;*/
+        }
+        else {
+            Debug.Log("Login succesful");
         }
 
         if (OnLoginResponse != null)
@@ -273,7 +278,7 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
     public void SendLoginOperation(string name)
     {
         PhotonPeer.OpCustom((byte)OperationCodes.Login,
-                            new Dictionary<byte, object> { { (byte)ParameterCodes.CharacterName, name } }, true);
+                            new Dictionary<byte, object> { { (byte)ParameterCodes.CharacterName, "tata" } }, true);
     }
 
     public void SendChatMessage(string message)

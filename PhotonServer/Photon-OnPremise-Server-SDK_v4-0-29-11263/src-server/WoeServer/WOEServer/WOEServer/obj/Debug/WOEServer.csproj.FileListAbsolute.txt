@@ -6,7 +6,6 @@ D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGamesLibs.xml
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\Photon.SocketServer.pdb
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\Photon.SocketServer.xml
-D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\obj\Debug\WOEServer.dll
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\obj\Debug\WOEServer.pdb
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\WOEServer.Common.dll
@@ -17,3 +16,4 @@ D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\PhotonHostRuntimeInterfaces.dll
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGames.Logging.Log4Net.pdb
 D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\bin\Debug\ExitGames.Logging.Log4Net.xml
+D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache

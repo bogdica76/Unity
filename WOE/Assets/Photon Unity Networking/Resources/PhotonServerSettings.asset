@@ -14,12 +14,12 @@ MonoBehaviour:
   AppID: 9c2a53dc-64d4-4314-ad8a-63939532cf8c
   VoiceAppID: 
   ChatAppID: 
-  HostType: 1
+  HostType: 2
   PreferredRegion: 0
   EnabledRegions: -1
-  Protocol: 0
-  ServerAddress: 
-  ServerPort: 5055
+  Protocol: 1
+  ServerAddress: bogdica.go.ro
+  ServerPort: 4530
   VoiceServerPort: 5055
   JoinLobby: 0
   EnableLobbyStatistics: 0

@@ -2,3 +2,581 @@
 2018-09-12 11:22:19,131 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
 2018-09-12 11:23:02,693 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
 2018-09-12 11:23:02,695 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 08:02:38,833 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 08:02:38,845 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 08:06:18,739 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 08:06:18,773 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 08:06:33,558 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 08:06:33,571 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 08:09:38,650 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 08:09:38,654 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 08:09:44,218 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 08:09:44,231 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 08:10:06,884 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:10:06,899 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:10:06,922 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 08:10:06,923 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:50320
+2018-09-17 08:10:07,172 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:10:07,180 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:50320, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:10:16,560 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 08:10:16,562 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 08:10:16,563 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 08:11:35,035 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:11:35,035 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:11:35,036 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 08:11:35,036 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50379
+2018-09-17 08:11:35,317 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=3, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:11:35,318 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50379, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:11:45,846 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 08:11:45,847 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 08:11:45,847 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 08:12:41,467 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=4, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:12:41,468 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:12:41,469 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 4 with SendResult Ok
+2018-09-17 08:12:41,471 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:50386
+2018-09-17 08:12:41,755 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=4, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:12:41,755 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:50386, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:12:50,635 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=4 reasonCode=ClientDisconnect
+2018-09-17 08:12:50,635 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 08:12:50,636 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 08:13:57,055 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=5, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:13:57,056 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:13:57,056 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 5 with SendResult Ok
+2018-09-17 08:13:57,057 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:50407
+2018-09-17 08:13:57,055 [18] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=6, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:13:57,058 [18] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:13:57,059 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 6 with SendResult Ok
+2018-09-17 08:13:57,059 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:6,ip:82.78.126.105:50406
+2018-09-17 08:13:57,307 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=6, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:13:57,308 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:6,ip:82.78.126.105:50406, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:14:34,345 [18] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=6 reasonCode=ClientDisconnect
+2018-09-17 08:14:34,345 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:6,ip:82.78.126.105:0
+2018-09-17 08:14:34,347 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:6,ip:82.78.126.105:0
+2018-09-17 08:14:34,346 [18] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=5 reasonCode=ClientDisconnect
+2018-09-17 08:14:34,349 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 08:14:34,350 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 08:27:28,923 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 08:27:28,937 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 08:28:22,930 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 08:28:22,945 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 08:28:26,770 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:28:26,774 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:28:26,789 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:28:26,803 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:28:26,803 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 08:28:26,803 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 08:28:26,807 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:50580
+2018-09-17 08:28:26,808 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581
+2018-09-17 08:28:27,044 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:28:27,053 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:50580, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:28:29,091 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:33,794 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:33,981 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:34,198 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:34,385 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:34,540 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:28:34,729 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:50581, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:29:02,299 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 08:29:02,300 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 08:29:02,314 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 08:29:02,306 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 08:29:02,317 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 08:29:02,318 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 08:29:05,606 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=5, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:29:05,607 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:29:05,608 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 5 with SendResult Ok
+2018-09-17 08:29:05,608 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:50588
+2018-09-17 08:29:05,606 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=4, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 08:29:05,611 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 08:29:05,611 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 4 with SendResult Ok
+2018-09-17 08:29:05,612 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:50587
+2018-09-17 08:29:05,858 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=4, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 08:29:05,859 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:50587, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 08:29:07,100 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:50588, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:29:12,458 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:50588, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 08:29:14,544 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=4 reasonCode=ClientDisconnect
+2018-09-17 08:29:14,544 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 08:29:14,545 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=5 reasonCode=ClientDisconnect
+2018-09-17 08:29:14,545 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 08:29:14,547 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 08:29:14,550 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 10:56:56,118 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 10:56:56,122 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 10:57:05,452 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 10:57:05,466 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 10:57:27,565 [8] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:57:27,565 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:57:27,583 [8] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:57:27,583 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:57:27,596 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 10:57:27,596 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51686
+2018-09-17 10:57:27,596 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 10:57:27,598 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:51687
+2018-09-17 10:57:27,800 [14] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 10:57:27,808 [14] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51686, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 10:57:29,612 [14] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:34,470 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:35,497 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:35,716 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:35,902 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:36,124 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:36,309 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:36,495 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:49,271 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:49,489 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:49,739 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:49,924 [14] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:50,144 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:50,393 [14] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:50,610 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51687, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:54,307 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 10:57:54,307 [8] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 10:57:54,308 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 10:57:54,311 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 10:57:54,312 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 10:57:54,312 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 10:57:57,524 [8] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=4, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:57:57,525 [8] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:57:57,526 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 4 with SendResult Ok
+2018-09-17 10:57:57,526 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=5, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:57:57,528 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:57:57,528 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:51691
+2018-09-17 10:57:57,529 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 5 with SendResult Ok
+2018-09-17 10:57:57,530 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:51692
+2018-09-17 10:57:57,798 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=4, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 10:57:57,799 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:51691, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 10:57:59,139 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:5,ip:82.78.126.105:51692, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:57:59,822 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:5,ip:82.78.126.105:51692, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:00,692 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=5 reasonCode=ClientDisconnect
+2018-09-17 10:58:00,692 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 10:58:00,693 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 10:58:00,692 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=4 reasonCode=ClientDisconnect
+2018-09-17 10:58:00,693 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 10:58:00,694 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 10:58:27,371 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 10:58:27,375 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 10:58:32,465 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 10:58:32,481 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 10:58:35,859 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:58:35,860 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:58:35,876 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:58:35,876 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:58:35,889 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 10:58:35,891 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51708
+2018-09-17 10:58:35,889 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 10:58:35,893 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:51707
+2018-09-17 10:58:36,152 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 10:58:36,160 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51708, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 10:58:37,764 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:44,429 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:44,738 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:44,989 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:45,206 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:45,424 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:45,674 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:45,894 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:46,109 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:58:46,359 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51707, Data: F3-02-00-00-01-01-73-00-04-67-69-67-69,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:31,027 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 10:59:31,027 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 10:59:31,030 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 10:59:31,031 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 10:59:31,032 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 10:59:31,032 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 10:59:34,456 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=4, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:59:34,457 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:59:34,458 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 4 with SendResult Ok
+2018-09-17 10:59:34,458 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:51717
+2018-09-17 10:59:34,456 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=5, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 10:59:34,458 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 10:59:34,460 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 5 with SendResult Ok
+2018-09-17 10:59:34,461 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:51718
+2018-09-17 10:59:34,722 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=5, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 10:59:34,722 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:51718, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 10:59:35,965 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:37,088 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:37,335 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:37,523 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:37,740 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:37,959 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:38,144 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:38,342 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:4,ip:82.78.126.105:51717, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 10:59:39,795 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=4 reasonCode=ClientDisconnect
+2018-09-17 10:59:39,798 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 10:59:39,799 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 10:59:39,795 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=5 reasonCode=ClientDisconnect
+2018-09-17 10:59:39,801 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 10:59:39,801 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 11:00:53,657 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 11:00:53,661 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 11:01:07,471 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 11:01:07,488 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 11:01:12,269 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:01:12,269 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:01:12,286 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:01:12,286 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:01:12,299 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 11:01:12,299 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 11:01:12,302 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:51745
+2018-09-17 11:01:12,302 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51744
+2018-09-17 11:01:12,559 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 11:01:12,570 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51744, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 11:01:13,992 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:17,691 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:17,941 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:18,159 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:18,377 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:18,594 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:18,813 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:19,030 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:19,247 [12] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:19,467 [13] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:19,685 [10] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:19,871 [11] ERROR Photon.SocketServer.PeerBase [(null)] - exception during handling of data.Peer:T:WOEPeer,ConnId:3,ip:82.78.126.105:51745, Data: F3-02-00-00-01-01-73-00-04-6D-61-6D-61,
+Exception:System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at WOEServer.WOEPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\WoeServer\WOEServer\WOEServer\WOEPeer.cs:line 27
+   at Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 1243
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) in h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:line 988
+2018-09-17 11:01:47,071 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 11:01:47,077 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 11:01:47,078 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 11:01:47,078 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:01:47,079 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:01:47,084 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:01:47,084 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:01:47,079 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 11:02:04,444 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 11:02:04,460 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 11:02:13,916 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:02:13,917 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:02:13,937 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:02:13,937 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:02:13,949 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 11:02:13,950 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 11:02:13,952 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51753
+2018-09-17 11:02:13,950 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:51754
+2018-09-17 11:02:14,183 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=3, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 11:02:14,191 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:51754, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 11:02:15,429 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:51753, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 11:38:41,349 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=WOEServer
+2018-09-17 11:38:41,355 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 11:38:41,356 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 11:38:41,357 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:38:41,357 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:38:41,357 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:38:41,361 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:38:41,360 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=WOEServer
+2018-09-17 11:39:00,700 [1] DEBUG WOEServer.WOEServer [(null)] - Server is setup!
+2018-09-17 11:39:00,715 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=WOEServer; AppPath=D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\WOEServer, Type=WOEServer.WOEServer 
+2018-09-17 11:39:08,290 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:39:08,290 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=3, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:39:08,311 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:39:08,311 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:39:08,324 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2018-09-17 11:39:08,325 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 3 with SendResult Ok
+2018-09-17 11:39:08,325 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:52082
+2018-09-17 11:39:08,325 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:52081
+2018-09-17 11:39:08,567 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=2, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 11:39:08,577 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:52082, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 11:39:10,264 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:52081, opCode=0, return=0, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 11:39:51,370 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2 reasonCode=ClientDisconnect
+2018-09-17 11:39:51,370 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=3 reasonCode=ClientDisconnect
+2018-09-17 11:39:51,371 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:39:51,371 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:39:51,372 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:2,ip:82.78.126.105:0
+2018-09-17 11:39:51,372 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:3,ip:82.78.126.105:0
+2018-09-17 11:39:54,928 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=4, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:39:54,929 [15] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application WOEServer, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:39:54,929 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 4 with SendResult Ok
+2018-09-17 11:39:54,930 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:52092
+2018-09-17 11:39:54,929 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=5, IP 82.78.126.105 on port 4530, type = TCPListener
+2018-09-17 11:39:54,931 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application LoadBalancing, client version 4.1.1.20, protocol GpBinaryV2 version 1.6 sdk 7680 using IPv6 False
+2018-09-17 11:39:54,931 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - OnInit - response sent to ConnId 5 with SendResult Ok
+2018-09-17 11:39:54,932 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Initializing to Connected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:52093
+2018-09-17 11:39:55,174 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - InitializeEncryption: conId=5, HashMode=SHA256, Paddin=PKCS7
+2018-09-17 11:39:55,174 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:52093, opCode=0, return=0, ChannelId=0 result=Ok size=110 bytes
+2018-09-17 11:39:56,639 [13] DEBUG Photon.SocketServer.PeerBase [(null)] - SentOpResponse: Peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:52092, opCode=0, return=1, ChannelId=0 result=Ok size=8 bytes
+2018-09-17 11:40:05,617 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=4 reasonCode=ClientDisconnect
+2018-09-17 11:40:05,618 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 11:40:05,618 [10] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:4,ip:82.78.126.105:0
+2018-09-17 11:40:05,618 [15] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=5 reasonCode=ClientDisconnect
+2018-09-17 11:40:05,620 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Connected to Disconnected: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
+2018-09-17 11:40:05,620 [12] DEBUG Photon.SocketServer.PeerBase [(null)] - Connection state changed from Disconnected to Disposed: peer=T:WOEPeer,ConnId:5,ip:82.78.126.105:0
