@@ -1,0 +1,94 @@
+9596: 16:58:52.390 - ---
+9596: 16:58:52.390 - Service: "Photon Socket Server" starting
+9596: 16:58:52.391 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+9596: 16:58:52.395 - Will produce at most: 10 crash dumps
+9596: 16:58:52.395 - Action: run as exe
+9596: 16:58:52.397 - Server Starting...
+9596: 16:58:52.397 -    Tick count: 284570015 (wraps in: 46.4166 days)
+9596: 16:58:52.397 - Tick count 64: 284570015
+9596: 16:58:52.397 - Photon Version: 4.0.28.2962
+9596: 16:58:52.397 - PID: 7624
+9596: 16:58:52.398 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+9596: 16:58:52.399 - Will NOT log unimportant exceptions
+9596: 16:58:52.438 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+9596: 16:58:52.439 - Shutdown timeout enabled: 30000ms
+9596: 16:58:52.439 - Starting I/O thread pool with 2 threads
+9596: 16:58:52.440 - Using Standard allocator
+9596: 16:58:52.440 - Max message size: 512000
+9596: 16:58:52.441 - Starting business logic thread pool with the following settings
+9596: 16:58:52.441 - InitialThreads: 4 threads
+9596: 16:58:52.441 - MinThreads: 4 threads
+9596: 16:58:52.441 - Thread pool is fixed size
+9596: 16:58:52.441 - Starting ENet thread pool with the following settings
+9596: 16:58:52.441 - InitialThreads: 2 threads
+9596: 16:58:52.441 - MinThreads: 2 threads
+9596: 16:58:52.441 - Thread pool is fixed size
+9596: 16:58:52.441 - OnlyDispatchTimers: False
+9596: 16:58:52.442 - S2S: flow control: Max pending writes: 50
+9596: 16:58:52.442 - S2S: flow control: Max queued buffers: 200
+9596: 16:58:52.442 - S2S: flow control: Max pending writes MUX: 500
+9596: 16:58:52.442 - S2S: flow control: Max queued buffers MUX: 2000
+9596: 16:58:52.442 - S2S: MaxInboundMessageSize: 512000
+9596: 16:58:52.442 - S2S: MaxOutboundMessageSize: 512000
+9596: 16:58:52.442 - S2S: No inactivity timeout
+9596: 16:58:52.451 - WebSocket S2S: MaxInboundMessageSize: 512000
+9596: 16:58:52.451 - WebSocket S2S: MaxOutboundMessageSize: 512000
+9596: 16:58:52.451 - WebSocket S2S: No inactivity timeout
+9596: 16:58:52.452 - Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+9596: 16:58:52.452 - Per peer bandwidth limit
+9596: 16:58:52.452 - Transmit Rate Limit: 256 KB/Sec
+9596: 16:58:52.452 - Limit period: 200ms
+9596: 16:58:52.452 - Limit per period: 52428 bytes
+9596: 16:58:52.452 - Max queued data for transmission per peer: 163840 bytes
+9596: 16:58:52.452 - Minimum retransmit timeout: 200
+9596: 16:58:52.452 - No Maximum retransmit timeout
+9596: 16:58:52.452 - Minimum ENet timeout: 5000ms
+9596: 16:58:52.452 - Maximum ENet timeout: 30000ms
+9596: 16:58:52.452 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+9596: 16:58:52.452 - No RTT ACK adjustment timeout
+9596: 16:58:52.452 - Outbound ENet: MaxInboundMessageSize: 512000
+9596: 16:58:52.452 - Outbound ENet: MaxOutboundMessageSize: 512000
+9596: 16:58:52.475 - GetRuntime - About to load CLR - versions available:
+9596: 16:58:52.475 - v2.0.50727
+9596: 16:58:52.475 - v4.0.30319
+9596: 16:58:52.475 - Configuration requests: "v2.0.50727"
+9596: 16:58:52.475 - About to load version: "v2.0.50727"
+9596: 16:58:52.536 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+9596: 16:58:52.536 - CLRBaseDirectory set to "D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy"
+9596: 16:58:52.536 - Optimising event broadcast for 20 or more peers
+9596: 16:58:52.537 - Start: About to load CLR - versions available:
+9596: 16:58:52.537 - v2.0.50727
+9596: 16:58:52.537 - v4.0.30319
+9596: 16:58:52.537 - No preference in configuration file, will load latest.
+9596: 16:58:52.537 - About to load version: "v4.0.30319"
+9596: 16:58:52.538 - Loaded version: "v4.0.30319"
+9596: 16:58:52.696 - Photon host runtime loaded
+9596: 16:58:54.305 - LICENSE: No license file was found. Starting with Bootstrap License.
+9596: 16:58:54.306 - License is valid.
+9596: 16:58:54.306 - Licensed for 20 concurrent connections.
+9596: 16:58:54.306 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+9596: 16:58:54.306 - ENet: Per peer bandwidth limit
+9596: 16:58:54.306 - ENet: Transmit Rate Limit: 256 KB/Sec
+9596: 16:58:54.306 - ENet: Limit period: 200ms
+9596: 16:58:54.306 - ENet: Limit per period: 52428 bytes
+9596: 16:58:54.306 - ENet: Max queued data for transmission per peer: 163840 bytes
+9596: 16:58:54.306 - ENet: Minimum retransmit timeout: 200
+9596: 16:58:54.306 - No Maximum retransmit timeout
+9596: 16:58:54.307 - ENet: Minimum timeout: 5000ms
+9596: 16:58:54.307 - ENet: Maximum timeout: 30000ms
+9596: 16:58:54.307 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+9596: 16:58:54.307 - No RTT ACK adjustment timeout
+9596: 16:58:54.307 - About to load application: WOEServer from WOEServer
+9596: 16:58:54.307 - Auto restart is enabled for application, existing connections will be terminated during restart
+9596: 16:58:54.307 - Application will restart 1000ms after the last change detected
+9596: 16:58:54.307 - Application will restart if files matching the following are changed: "dll;config"
+9596: 16:58:54.307 - Application will NOT restart if files matching the following are changed: "log4net.config"
+9596: 16:58:54.603 - Taking reference on default app domain
+9596: 16:58:54.742 - Application: "WOEServer" started in app domain: 2
+9596: 16:58:54.743 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+9596: 16:58:54.743 - TCP inactivity timeout: 5000ms
+9596: 16:58:54.743 - TCP disconnect timeout: 120000ms
+9596: 16:58:54.743 - MaxInboundMessageSize: 512000
+9596: 16:58:54.743 - MaxOutboundMessageSize: 512000
+9596: 16:58:54.743 - Forcing all applications ids to: "WOEServer"
+9596: 16:58:54.746 - Service is running...

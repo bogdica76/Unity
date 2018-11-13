@@ -11,9 +11,10 @@ namespace WOEServer.Operations
         {
         }
 
-        [DataMember(Code = (byte)ParameterCodes.User);
-            DataMember(Code = (byte)ParameterCodes.Pass)]
+        [DataMember(Code = (byte)ParameterCodes.User)]
         public string User { get; set; }
+
+        [DataMember(Code = (byte)ParameterCodes.Pass)]
         public string Pass { get; set; }
     }
 }

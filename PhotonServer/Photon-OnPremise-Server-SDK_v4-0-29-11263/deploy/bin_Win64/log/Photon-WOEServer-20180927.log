@@ -1,0 +1,94 @@
+1076: 08:24:03.609 - ---
+1076: 08:24:03.609 - Service: "Photon Socket Server" starting
+1076: 08:24:03.609 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+1076: 08:24:03.613 - Will produce at most: 10 crash dumps
+1076: 08:24:03.614 - Action: run as exe
+1076: 08:24:03.615 - Server Starting...
+1076: 08:24:03.616 -    Tick count: 659665437 (wraps in: 42.0753 days)
+1076: 08:24:03.616 - Tick count 64: 659665437
+1076: 08:24:03.616 - Photon Version: 4.0.28.2962
+1076: 08:24:03.616 - PID: 17996
+1076: 08:24:03.617 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+1076: 08:24:03.618 - Will NOT log unimportant exceptions
+1076: 08:24:03.656 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+1076: 08:24:03.657 - Shutdown timeout enabled: 30000ms
+1076: 08:24:03.657 - Starting I/O thread pool with 2 threads
+1076: 08:24:03.657 - Using Standard allocator
+1076: 08:24:03.657 - Max message size: 512000
+1076: 08:24:03.658 - Starting business logic thread pool with the following settings
+1076: 08:24:03.658 - InitialThreads: 4 threads
+1076: 08:24:03.658 - MinThreads: 4 threads
+1076: 08:24:03.658 - Thread pool is fixed size
+1076: 08:24:03.658 - Starting ENet thread pool with the following settings
+1076: 08:24:03.658 - InitialThreads: 2 threads
+1076: 08:24:03.658 - MinThreads: 2 threads
+1076: 08:24:03.658 - Thread pool is fixed size
+1076: 08:24:03.658 - OnlyDispatchTimers: False
+1076: 08:24:03.659 - S2S: flow control: Max pending writes: 50
+1076: 08:24:03.659 - S2S: flow control: Max queued buffers: 200
+1076: 08:24:03.659 - S2S: flow control: Max pending writes MUX: 500
+1076: 08:24:03.659 - S2S: flow control: Max queued buffers MUX: 2000
+1076: 08:24:03.659 - S2S: MaxInboundMessageSize: 512000
+1076: 08:24:03.659 - S2S: MaxOutboundMessageSize: 512000
+1076: 08:24:03.659 - S2S: No inactivity timeout
+1076: 08:24:03.669 - WebSocket S2S: MaxInboundMessageSize: 512000
+1076: 08:24:03.669 - WebSocket S2S: MaxOutboundMessageSize: 512000
+1076: 08:24:03.669 - WebSocket S2S: No inactivity timeout
+1076: 08:24:03.669 - Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+1076: 08:24:03.669 - Per peer bandwidth limit
+1076: 08:24:03.669 - Transmit Rate Limit: 256 KB/Sec
+1076: 08:24:03.669 - Limit period: 200ms
+1076: 08:24:03.669 - Limit per period: 52428 bytes
+1076: 08:24:03.670 - Max queued data for transmission per peer: 163840 bytes
+1076: 08:24:03.670 - Minimum retransmit timeout: 200
+1076: 08:24:03.670 - No Maximum retransmit timeout
+1076: 08:24:03.670 - Minimum ENet timeout: 5000ms
+1076: 08:24:03.670 - Maximum ENet timeout: 30000ms
+1076: 08:24:03.670 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1076: 08:24:03.670 - No RTT ACK adjustment timeout
+1076: 08:24:03.670 - Outbound ENet: MaxInboundMessageSize: 512000
+1076: 08:24:03.670 - Outbound ENet: MaxOutboundMessageSize: 512000
+1076: 08:24:03.703 - GetRuntime - About to load CLR - versions available:
+1076: 08:24:03.703 - v2.0.50727
+1076: 08:24:03.703 - v4.0.30319
+1076: 08:24:03.703 - Configuration requests: "v2.0.50727"
+1076: 08:24:03.703 - About to load version: "v2.0.50727"
+1076: 08:24:03.761 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+1076: 08:24:03.762 - CLRBaseDirectory set to "D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy"
+1076: 08:24:03.762 - Optimising event broadcast for 20 or more peers
+1076: 08:24:03.762 - Start: About to load CLR - versions available:
+1076: 08:24:03.762 - v2.0.50727
+1076: 08:24:03.762 - v4.0.30319
+1076: 08:24:03.762 - No preference in configuration file, will load latest.
+1076: 08:24:03.762 - About to load version: "v4.0.30319"
+1076: 08:24:03.763 - Loaded version: "v4.0.30319"
+1076: 08:24:03.931 - Photon host runtime loaded
+1076: 08:24:05.457 - LICENSE: No license file was found. Starting with Bootstrap License.
+1076: 08:24:05.457 - License is valid.
+1076: 08:24:05.457 - Licensed for 20 concurrent connections.
+1076: 08:24:05.457 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+1076: 08:24:05.457 - ENet: Per peer bandwidth limit
+1076: 08:24:05.457 - ENet: Transmit Rate Limit: 256 KB/Sec
+1076: 08:24:05.457 - ENet: Limit period: 200ms
+1076: 08:24:05.457 - ENet: Limit per period: 52428 bytes
+1076: 08:24:05.457 - ENet: Max queued data for transmission per peer: 163840 bytes
+1076: 08:24:05.457 - ENet: Minimum retransmit timeout: 200
+1076: 08:24:05.457 - No Maximum retransmit timeout
+1076: 08:24:05.457 - ENet: Minimum timeout: 5000ms
+1076: 08:24:05.457 - ENet: Maximum timeout: 30000ms
+1076: 08:24:05.457 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1076: 08:24:05.457 - No RTT ACK adjustment timeout
+1076: 08:24:05.457 - About to load application: WOEServer from WOEServer
+1076: 08:24:05.457 - Auto restart is enabled for application, existing connections will be terminated during restart
+1076: 08:24:05.457 - Application will restart 1000ms after the last change detected
+1076: 08:24:05.457 - Application will restart if files matching the following are changed: "dll;config"
+1076: 08:24:05.457 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1076: 08:24:05.541 - Taking reference on default app domain
+1076: 08:24:05.579 - Application: "WOEServer" started in app domain: 2
+1076: 08:24:05.579 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+1076: 08:24:05.579 - TCP inactivity timeout: 5000ms
+1076: 08:24:05.579 - TCP disconnect timeout: 120000ms
+1076: 08:24:05.579 - MaxInboundMessageSize: 512000
+1076: 08:24:05.579 - MaxOutboundMessageSize: 512000
+1076: 08:24:05.579 - Forcing all applications ids to: "WOEServer"
+1076: 08:24:05.582 - Service is running...

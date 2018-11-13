@@ -5,11 +5,17 @@ using ExitGames.Client.Photon;
 using WOEServer.Common;
 //using TestPhotonLib.Common;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 {
     private const string CONNECTION_STRING = "bogdica.go.ro:4530";
     private const string APP_NAME = "WOEServer";
+
+    public Text UserText;
+    public Text PassText;
+    private string myUser;
 
     private static PhotonServer _instance;
     public static PhotonServer Instance
@@ -50,7 +56,7 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
         {
             throw new Exception("not working...");
         }
-        Connect();
+        Connect();        
     }
 
     // Update is called once per frame
@@ -91,9 +97,9 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
                 Debug.Log("mama");
                 LoginHandler(operationResponse);
                 break;
-            /*case (byte)OperationCode.ListPlayers:
+            case (byte)OperationCodes.ListPlayers:
                 ListPlayersHandler(operationResponse);
-                break;*/
+                break;
             default:
                 Debug.Log("Unknown OperationResponse:" + operationResponse.OperationCode);
                 break;
@@ -102,24 +108,27 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 
     public void OnEvent(EventData eventData)
     {
-        /*switch (eventData.Code)
+        Debug.Log(eventData.Code);
+        switch (eventData.Code)
         {
-            case (byte)EventCode.ChatMessage:
+            
+            /*case (byte)EventCodes.ChatMessage:
                 ChatMessageHandler(eventData);
-                break;
-            case (byte)EventCode.Move:
+                break;*/
+            case (byte)EventCodes.Move:
                 MoveHandler(eventData);
                 break;
-            case (byte)EventCode.WorldEnter:
+            case (byte)EventCodes.WorldEnter:
+                Debug.Log("world enter event");
                 WorldEnterHandler(eventData);
                 break;
-            case (byte)EventCode.WorldExit:
+            case (byte)EventCodes.WorldExit:
                 WorldExitHandler(eventData);
                 break;
             default:
                 Debug.Log("Unknown Event:" + eventData.Code);
                 break;
-        }*/
+        }
     }
 
     public void OnStatusChanged(StatusCode statusCode)
@@ -177,6 +186,8 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
         }
         else {
             Debug.Log("Login succesful");
+            SceneManager.LoadScene("TheBeginning");
+            //WorldEnterOperation();
         }
 
         if (OnLoginResponse != null)
@@ -195,12 +206,13 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 
     private void MoveHandler(EventData eventData)
     {
-        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.CharacterName];
+        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.User];
         float posX = (float)eventData.Parameters[(byte)ParameterCodes.PosX];
         float posY = (float)eventData.Parameters[(byte)ParameterCodes.PosY];
         float posZ = (float)eventData.Parameters[(byte)ParameterCodes.PosZ];
 
         var client = Players.FirstOrDefault(n => n.CharacterName.Equals(characterName));
+        Debug.Log("Server moving player: " + client.CharacterName);
         if (client == null)
         {
             Debug.Log("Move:not client");
@@ -215,7 +227,8 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 
     private void WorldEnterHandler(EventData eventData)
     {
-        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.CharacterName];
+        Debug.Log("world enter handler");
+        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.User];
         float posX = (float)eventData.Parameters[(byte)ParameterCodes.PosX];
         float posY = (float)eventData.Parameters[(byte)ParameterCodes.PosY];
         float posZ = (float)eventData.Parameters[(byte)ParameterCodes.PosZ];
@@ -224,16 +237,23 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
         obj.transform.position = new Vector3(posX, posY, posZ);
 
         var player = obj.AddComponent<Player>();
+        //var camera = obj.AddComponent<Camera>();
         player.CharacterName = characterName;
+        CharacterName = characterName;
 
         Players.Add(player);
+
+        if (myUser == characterName) {
+            var camera = obj.AddComponent<Camera>();
+        }
+        
 
         Debug.Log("WorldEnterHandler charName:" + characterName);
     }
 
     private void WorldExitHandler(EventData eventData)
     {
-        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.CharacterName];
+        string characterName = (string)eventData.Parameters[(byte)ParameterCodes.User];
 
         var client = Players.FirstOrDefault(n => n.CharacterName.Equals(characterName));
         if (client == null)
@@ -277,8 +297,9 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 
     public void SendLoginOperation(string name)
     {
+        myUser = UserText.text;     
         PhotonPeer.OpCustom((byte)OperationCodes.Login,
-                            new Dictionary<byte, object> { { (byte)ParameterCodes.CharacterName, "tata" } }, true);
+                            new Dictionary<byte, object> { { (byte)ParameterCodes.User, UserText.text }, { (byte)ParameterCodes.Pass, PassText.text } }, true);
     }
 
     public void SendChatMessage(string message)
@@ -294,6 +315,7 @@ public class PhotonServer : MonoBehaviour, IPhotonPeerListener
 
     public void MoveOperation(float x, float y, float z)
     {
+        Debug.Log("calling move operation");
         PhotonPeer.OpCustom((byte)OperationCodes.Move,
                             new Dictionary<byte, object>
                                 {

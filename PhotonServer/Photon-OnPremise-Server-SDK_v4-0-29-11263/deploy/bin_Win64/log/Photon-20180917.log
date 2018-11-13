@@ -46,3 +46,15 @@
 11096: 11:38:41.351 - Will produce at most: 10 crash dumps
 11096: 11:38:41.351 - Service shutting down
 11096: 11:38:41.351 - Service shut down complete
+16336: 18:04:49.975 - ---
+16336: 18:04:49.976 - Service: "Photon Socket Server" starting
+16336: 18:04:49.976 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+16336: 18:04:49.977 - Will produce at most: 10 crash dumps
+16336: 18:04:49.977 - Service shutting down
+16336: 18:04:49.977 - Service shut down complete
+15292: 18:32:38.838 - ---
+15292: 18:32:38.838 - Service: "Photon Socket Server" starting
+15292: 18:32:38.838 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+15292: 18:32:38.840 - Will produce at most: 10 crash dumps
+15292: 18:32:38.840 - Service shutting down
+15292: 18:32:38.840 - Service shut down complete

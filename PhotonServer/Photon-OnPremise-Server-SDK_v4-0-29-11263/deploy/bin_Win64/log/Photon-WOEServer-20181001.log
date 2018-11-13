@@ -1,0 +1,94 @@
+14160: 17:11:21.999 - ---
+14160: 17:11:22.000 - Service: "Photon Socket Server" starting
+14160: 17:11:22.000 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+14160: 17:11:22.010 - Will produce at most: 10 crash dumps
+14160: 17:11:22.010 - Action: run as exe
+14160: 17:11:22.011 - Server Starting...
+14160: 17:11:22.012 -    Tick count: 1036901843 (wraps in: 37.7091 days)
+14160: 17:11:22.012 - Tick count 64: 1036901843
+14160: 17:11:22.012 - Photon Version: 4.0.28.2962
+14160: 17:11:22.012 - PID: 9976
+14160: 17:11:22.012 - Config File: D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+14160: 17:11:22.013 - Will NOT log unimportant exceptions
+14160: 17:11:22.019 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+14160: 17:11:22.019 - Shutdown timeout enabled: 30000ms
+14160: 17:11:22.020 - Starting I/O thread pool with 2 threads
+14160: 17:11:22.020 - Using Standard allocator
+14160: 17:11:22.020 - Max message size: 512000
+14160: 17:11:22.021 - Starting business logic thread pool with the following settings
+14160: 17:11:22.021 - InitialThreads: 4 threads
+14160: 17:11:22.021 - MinThreads: 4 threads
+14160: 17:11:22.021 - Thread pool is fixed size
+14160: 17:11:22.021 - Starting ENet thread pool with the following settings
+14160: 17:11:22.021 - InitialThreads: 2 threads
+14160: 17:11:22.021 - MinThreads: 2 threads
+14160: 17:11:22.021 - Thread pool is fixed size
+14160: 17:11:22.021 - OnlyDispatchTimers: False
+14160: 17:11:22.022 - S2S: flow control: Max pending writes: 50
+14160: 17:11:22.022 - S2S: flow control: Max queued buffers: 200
+14160: 17:11:22.022 - S2S: flow control: Max pending writes MUX: 500
+14160: 17:11:22.022 - S2S: flow control: Max queued buffers MUX: 2000
+14160: 17:11:22.022 - S2S: MaxInboundMessageSize: 512000
+14160: 17:11:22.022 - S2S: MaxOutboundMessageSize: 512000
+14160: 17:11:22.022 - S2S: No inactivity timeout
+14160: 17:11:22.041 - WebSocket S2S: MaxInboundMessageSize: 512000
+14160: 17:11:22.041 - WebSocket S2S: MaxOutboundMessageSize: 512000
+14160: 17:11:22.041 - WebSocket S2S: No inactivity timeout
+14160: 17:11:22.042 - Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+14160: 17:11:22.042 - Per peer bandwidth limit
+14160: 17:11:22.042 - Transmit Rate Limit: 256 KB/Sec
+14160: 17:11:22.042 - Limit period: 200ms
+14160: 17:11:22.042 - Limit per period: 52428 bytes
+14160: 17:11:22.042 - Max queued data for transmission per peer: 163840 bytes
+14160: 17:11:22.042 - Minimum retransmit timeout: 200
+14160: 17:11:22.042 - No Maximum retransmit timeout
+14160: 17:11:22.042 - Minimum ENet timeout: 5000ms
+14160: 17:11:22.042 - Maximum ENet timeout: 30000ms
+14160: 17:11:22.042 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+14160: 17:11:22.042 - No RTT ACK adjustment timeout
+14160: 17:11:22.042 - Outbound ENet: MaxInboundMessageSize: 512000
+14160: 17:11:22.042 - Outbound ENet: MaxOutboundMessageSize: 512000
+14160: 17:11:22.076 - GetRuntime - About to load CLR - versions available:
+14160: 17:11:22.076 - v2.0.50727
+14160: 17:11:22.076 - v4.0.30319
+14160: 17:11:22.076 - Configuration requests: "v2.0.50727"
+14160: 17:11:22.076 - About to load version: "v2.0.50727"
+14160: 17:11:22.149 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+14160: 17:11:22.149 - CLRBaseDirectory set to "D:\wGit\Unity\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy"
+14160: 17:11:22.149 - Optimising event broadcast for 20 or more peers
+14160: 17:11:22.151 - Start: About to load CLR - versions available:
+14160: 17:11:22.151 - v2.0.50727
+14160: 17:11:22.151 - v4.0.30319
+14160: 17:11:22.151 - No preference in configuration file, will load latest.
+14160: 17:11:22.151 - About to load version: "v4.0.30319"
+14160: 17:11:22.154 - Loaded version: "v4.0.30319"
+14160: 17:11:22.395 - Photon host runtime loaded
+14160: 17:11:23.952 - LICENSE: No license file was found. Starting with Bootstrap License.
+14160: 17:11:23.952 - License is valid.
+14160: 17:11:23.952 - Licensed for 20 concurrent connections.
+14160: 17:11:23.952 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 16384 bytes
+14160: 17:11:23.952 - ENet: Per peer bandwidth limit
+14160: 17:11:23.952 - ENet: Transmit Rate Limit: 256 KB/Sec
+14160: 17:11:23.952 - ENet: Limit period: 200ms
+14160: 17:11:23.952 - ENet: Limit per period: 52428 bytes
+14160: 17:11:23.952 - ENet: Max queued data for transmission per peer: 163840 bytes
+14160: 17:11:23.952 - ENet: Minimum retransmit timeout: 200
+14160: 17:11:23.952 - No Maximum retransmit timeout
+14160: 17:11:23.952 - ENet: Minimum timeout: 5000ms
+14160: 17:11:23.952 - ENet: Maximum timeout: 30000ms
+14160: 17:11:23.952 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+14160: 17:11:23.952 - No RTT ACK adjustment timeout
+14160: 17:11:23.953 - About to load application: WOEServer from WOEServer
+14160: 17:11:23.953 - Auto restart is enabled for application, existing connections will be terminated during restart
+14160: 17:11:23.953 - Application will restart 1000ms after the last change detected
+14160: 17:11:23.953 - Application will restart if files matching the following are changed: "dll;config"
+14160: 17:11:23.953 - Application will NOT restart if files matching the following are changed: "log4net.config"
+14160: 17:11:24.252 - Taking reference on default app domain
+14160: 17:11:24.536 - Application: "WOEServer" started in app domain: 2
+14160: 17:11:24.537 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+14160: 17:11:24.537 - TCP inactivity timeout: 5000ms
+14160: 17:11:24.537 - TCP disconnect timeout: 120000ms
+14160: 17:11:24.537 - MaxInboundMessageSize: 512000
+14160: 17:11:24.537 - MaxOutboundMessageSize: 512000
+14160: 17:11:24.537 - Forcing all applications ids to: "WOEServer"
+14160: 17:11:24.547 - Service is running...

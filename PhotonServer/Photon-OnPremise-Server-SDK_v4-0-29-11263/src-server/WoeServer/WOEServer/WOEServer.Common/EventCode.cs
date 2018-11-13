@@ -6,5 +6,7 @@
         Move,
         WorldEnter,
         WorldExit,
+        PlayerJoined,
+        PlayerLeft
     }
 }
