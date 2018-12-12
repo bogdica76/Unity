@@ -9,3 +9,9 @@ C:\Users\Bogdica\Downloads\KaymakGames Server\ByteBuffer\bin\Debug\ByteBuffer.pd
 C:\Users\Bogdica\Downloads\KaymakGames Server\ByteBuffer\obj\Debug\ByteBuffer.csprojResolveAssemblyReference.cache
 C:\Users\Bogdica\Downloads\KaymakGames Server\ByteBuffer\obj\Debug\ByteBuffer.dll
 C:\Users\Bogdica\Downloads\KaymakGames Server\ByteBuffer\obj\Debug\ByteBuffer.pdb
+D:\wGit\Unity\WOEServer\ByteBuffer\bin\Debug\ByteBuffer.dll
+D:\wGit\Unity\WOEServer\ByteBuffer\bin\Debug\ByteBuffer.pdb
+D:\wGit\Unity\WOEServer\ByteBuffer\obj\Debug\ByteBuffer.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\WOEServer\ByteBuffer\obj\Debug\ByteBuffer.csproj.CoreCompileInputs.cache
+D:\wGit\Unity\WOEServer\ByteBuffer\obj\Debug\ByteBuffer.dll
+D:\wGit\Unity\WOEServer\ByteBuffer\obj\Debug\ByteBuffer.pdb

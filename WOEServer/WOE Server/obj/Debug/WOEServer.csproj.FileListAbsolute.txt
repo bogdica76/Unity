@@ -14,3 +14,4 @@ D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\WOEServer.pdb
 D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\ByteBuffer.dll
 D:\wGit\Unity\WOEServer\WOE Server\bin\Debug\ByteBuffer.pdb
 D:\wGit\Unity\WOEServer\WOE Server\obj\Debug\WOEServer.csprojResolveAssemblyReference.cache
+D:\wGit\Unity\WOEServer\WOE Server\obj\Debug\WOEServer.csproj.CoreCompileInputs.cache
